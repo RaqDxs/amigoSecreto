@@ -55,7 +55,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/amigo-secreto.git
+   git clone https://github.com/RaqDxs/amigoSecreto.git
    ```
 
 2. Navega al directorio del proyecto:
