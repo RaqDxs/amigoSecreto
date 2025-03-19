@@ -34,4 +34,3 @@ function sortearAmigo() {
     resultado.innerHTML = `<li>🎯 ¡El ganador es: ${amigoSorteado}! 🎉</li>`;
 }
 
-

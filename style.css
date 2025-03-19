@@ -160,3 +160,45 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+:root {
+    --color-primary: #6C63FF;       /* Cambio a un tono morado más moderno */
+    --color-secondary: #F9F7FF;     /* Un fondo más suave */
+    --color-tertiary: #D9D4FF;      /* Tono complementario al primario */
+    --color-button: #FF6B6B;        /* Botón más vibrante */
+    --color-button-hover: #FF5252;  /* Hover más intenso */
+    --color-text: #333333;          /* Texto ligeramente más oscuro */
+    --color-white: #FFFFFF;
+}
+
+/* Añadir transiciones suaves */
+button, .input-name {
+    transition: all 0.3s ease;
+}
+
+/* Mejorar la lista de amigos */
+.name-list li {
+    background-color: var(--color-tertiary);
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Mejorar el resultado */
+.result-list li {
+    background-color: #EEFFD4;
+    border: 2px solid #05DF05;
+    padding: 15px 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Mejorar el input */
+.input-name:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+}
